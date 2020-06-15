@@ -1,4 +1,4 @@
-package design_23.creation.singleton;
+package patterns.creation.singleton;
 
 /**
  * 单例：皇帝类

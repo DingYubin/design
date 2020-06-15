@@ -1,6 +1,6 @@
-package design_23.creation.client;
+package patterns.creation.client;
 
-import design_23.creation.factory.*;
+import patterns.creation.factory.*;
 
 public class NvWa {
     public static void main(String[] args) {

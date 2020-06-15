@@ -1,4 +1,4 @@
-package design_23.creation.singleton;
+package patterns.creation.singleton;
 
 /**
  * 懒汉式

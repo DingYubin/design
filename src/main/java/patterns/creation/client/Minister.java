@@ -1,6 +1,6 @@
-package design_23.creation.client;
+package patterns.creation.client;
 
-import design_23.creation.singleton.Emperor;
+import patterns.creation.singleton.Emperor;
 
 public class Minister {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package design_23.creation.factory;
+package patterns.creation.factory;
 
 public class HumanFactory extends AbstractHumanFactory{
     public <T extends Human> T createHuman(Class<T> c) {

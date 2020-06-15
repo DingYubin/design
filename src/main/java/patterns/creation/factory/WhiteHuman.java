@@ -1,4 +1,4 @@
-package design_23.creation.factory;
+package patterns.creation.factory;
 
 public class WhiteHuman implements Human{
     public void getColor() {

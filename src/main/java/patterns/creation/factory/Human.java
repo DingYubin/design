@@ -1,4 +1,4 @@
-package design_23.creation.factory;
+package patterns.creation.factory;
 
 public interface Human {
     //没个人种颜色不一样
