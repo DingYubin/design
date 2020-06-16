@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/BackStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/CutStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/EmptyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/FullStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ProductFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/AbstractHumanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/AbstractHumanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/BlackHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/BlackHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/HumanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/HumanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/WhiteHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/WhiteHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/YellowHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/YellowHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,99 +34,70 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#275#293#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ProductFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="473">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#212#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/EmptyStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/FullStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/BackStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="40" />
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/CutStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="92">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/strategy/Strategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Creator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,12 +126,26 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Creator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ProductFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="505" />
-    <option name="y" value="25" />
+    <option name="x" value="913" />
+    <option name="y" value="78" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -158,8 +154,8 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
-      <hideEmptyPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -195,7 +191,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy_factory" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,10 +233,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592213789182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592278018605" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.creation.factory.method" />
+      <recent name="patterns.behavioral.strategy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,9 +256,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.hybrid.strategy_factory.Test" />
+  <component name="RunManager" selected="Application.FactoryMethodTest">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.strategy.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.hybrid.strategy_factory.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
@@ -238,9 +283,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.creation.client.FactoryMethodTest" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.creation.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.FactoryMethodTest" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -255,28 +315,28 @@
       <option name="presentableId" value="Default" />
       <updated>1592201852522</updated>
       <workItem from="1592201856172" duration="597000" />
-      <workItem from="1592202473524" duration="7367000" />
+      <workItem from="1592202473524" duration="12448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7964000" />
+    <option name="totallyTimeSpent" value="13045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,7 +344,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2483731" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.47613883" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,6 +357,38 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37199125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33296824" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47613883" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -360,16 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -384,10 +470,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="184">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/ConcreteStrategy2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/strategy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/HumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/WhiteHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/YellowHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteProduct2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ConcreteCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/AbstractHumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/nvwa/BlackHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/method/ProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package patterns.creation.factory;
+package patterns.creation.factory.nvwa;
 
 public class HumanFactory extends AbstractHumanFactory{
     public <T extends Human> T createHuman(Class<T> c) {

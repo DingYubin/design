@@ -1,4 +1,4 @@
-package patterns.creation.factory;
+package patterns.creation.factory.nvwa;
 
 public interface Human {
     //没个人种颜色不一样

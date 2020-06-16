@@ -1,6 +1,6 @@
 package patterns.creation.client;
 
-import patterns.creation.factory.*;
+import patterns.creation.factory.nvwa.*;
 
 public class NvWa {
     public static void main(String[] args) {
