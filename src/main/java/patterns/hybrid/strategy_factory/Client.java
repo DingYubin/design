@@ -1,7 +1,6 @@
 package patterns.hybrid.strategy_factory;
 
-import patterns.hybrid.strategy_factory.factory.StrategyFactory;
-import patterns.hybrid.strategy_factory.factory.StrategyFactory2;
+import patterns.hybrid.strategy_factory.factory.StrategyFactory4;
 import patterns.hybrid.strategy_factory.strategy.CutStrategy;
 
 public class Client {
@@ -11,10 +10,10 @@ public class Client {
 //        context.executeStrategy();
 
 //        String key = "CUT";
-//        Context context = new Context(StrategyFactory1.getStrategy(null));
+//        Context context = new Context(StrategyFactory2.getStrategy(null));
 //        context.executeStrategy();
 
-        Context context = new Context(StrategyFactory2.getStrategy(CutStrategy.class));
+        Context context = new Context(StrategyFactory4.getStrategy(CutStrategy.class));
         context.executeStrategy();
     }
 }

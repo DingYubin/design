@@ -1,31 +1,41 @@
 package patterns.hybrid.strategy_factory.factory;
 
+import patterns.creation.factory.simple_factory.method.ConcreteProduct1;
+import patterns.creation.factory.simple_factory.method.ConcreteProduct2;
+import patterns.creation.factory.simple_factory.method.Product;
 import patterns.hybrid.strategy_factory.strategy.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 动态加载，非缓存
+ * 静态工厂
  */
 public class StrategyFactory1 {
 
-    public static Strategy getStrategy(String key){
-        if (key == null)
-            return new EmptyStrategy();
+    private static final Map<String, Strategy> STRATEGY_MAP = new HashMap<String, Strategy>();
 
-        if (key.equals(Key.CUT)){
-            return new CutStrategy();
-        }else if (key.equals(Key.CASH_BACK)){
-            return new BackStrategy();
-        }else if (key.equals(Key.FULL_REDUCTION)){
-            return new FullStrategy();
+    public static synchronized Strategy getStrategy(String key) throws Exception{
+
+        Strategy strategy = null;
+        //如果Map已经有这个对象
+        if (STRATEGY_MAP.containsKey(key)){
+            strategy = STRATEGY_MAP.get(key);
+        }else {
+            if (key.equals(Key.CUT)){
+                strategy = new CutStrategy();
+            }else if (key.equals(Key.CASH_BACK)){
+                strategy = new BackStrategy();
+            }else if (key.equals(Key.FULL_REDUCTION)){
+                strategy = new FullStrategy();
+            }else {
+                strategy = new EmptyStrategy();
+            }
+            //把对象缓存在map中
+            STRATEGY_MAP.put(key, strategy);
         }
-
-        return new EmptyStrategy();
+        return strategy;
     }
-
-
 
     private interface Key{
         String CUT = "CUT";
