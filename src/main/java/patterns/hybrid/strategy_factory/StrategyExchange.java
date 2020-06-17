@@ -26,14 +26,6 @@ public enum StrategyExchange {
         return EMPTY;
     }
 
-    public String getAction() {
-        return action;
-    }
-
-    public void setAction(String action) {
-        this.action = action;
-    }
-
     public Class<?> getStrategy() {
         return strategy;
     }
