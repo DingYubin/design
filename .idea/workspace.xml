@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="639">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#285#303#0" expanded="true" />
@@ -27,27 +29,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="639">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory2.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory1.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java" />
       </list>
     </option>
   </component>
@@ -250,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592371778876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592372262941" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -356,12 +358,12 @@
       <updated>1592201852522</updated>
       <workItem from="1592201856172" duration="597000" />
       <workItem from="1592202473524" duration="13149000" />
-      <workItem from="1592291543079" duration="12022000" />
+      <workItem from="1592291543079" duration="12461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25768000" />
+    <option name="totallyTimeSpent" value="26207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +386,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2494577" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2494577" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -834,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/factory/StrategyFactory5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="639">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#285#303#0" expanded="true" />
@@ -843,25 +845,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="639">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/StrategyExchange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/hybrid/strategy_factory/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="437">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

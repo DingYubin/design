@@ -30,7 +30,7 @@ public enum StrategyExchange {
         return strategy;
     }
 
-    public void setStrategy(Class<?> strategy) {
-        this.strategy = strategy;
+    public String getAction() {
+        return action;
     }
 }

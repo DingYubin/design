@@ -17,7 +17,7 @@ public class Client {
 //        Context context = new Context(StrategyFactory4.getStrategy(CutStrategy.class));
 //        context.executeStrategy();
 
-        String action = "FULL";
+        String action = StrategyExchange.BACK.getAction();
         Context context = new Context(StrategyFactory5.getStrategy(action));
         context.executeStrategy();
     }
