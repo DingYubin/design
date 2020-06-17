@@ -1,5 +1,6 @@
 package patterns.hybrid.strategy_factory.factory;
 
+import patterns.hybrid.strategy_factory.StrategyExchange;
 import patterns.hybrid.strategy_factory.strategy.*;
 
 import java.util.HashMap;
@@ -12,18 +13,19 @@ public class StrategyFactory5 {
     private static final Map<String, Strategy> STRATEGY_MAP = new HashMap<String, Strategy>();
 
     /**
-     * @param c 反射拿到对应的策略类
-     * @param <T>
+     * action 传入的类型参数
+     * key 传入的 反射参数
+     * strategy : 策略对象
      * @return
      */
-    public static <T extends Strategy>T getStrategy(Class<T> c){
+    public static <T extends Strategy>T getStrategy(String action){
       Strategy strategy = null;
-      String key = c.getName();
+      String key = StrategyExchange.getValue(action).getStrategy().getName();
         if (STRATEGY_MAP.containsKey(key)){
             strategy = STRATEGY_MAP.get(key);
         }else {
             try {
-                strategy = (Strategy) Class.forName(c.getName()).newInstance();
+                strategy = (Strategy) Class.forName(key).newInstance();
             } catch (Exception e) {
                 e.printStackTrace();
             }
