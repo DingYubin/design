@@ -1,4 +1,4 @@
-package patterns.creation.factory.method;
+package patterns.creation.factory.simple_factory.method;
 
 public class ConcreteCreate extends Creator{
     public <T extends Product> T createProduct(Class<T> c) {

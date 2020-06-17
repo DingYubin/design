@@ -1,4 +1,4 @@
-package patterns.creation.factory.method;
+package patterns.creation.factory.simple_factory.method;
 
 public abstract class Product {
     public void method1(){

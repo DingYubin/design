@@ -1,4 +1,4 @@
-package patterns.creation.factory.nvwa;
+package patterns.creation.factory.simple_factory.nvwa;
 
 public class WhiteHuman implements Human{
     public void getColor() {

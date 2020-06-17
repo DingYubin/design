@@ -1,8 +1,12 @@
 package patterns.creation.client;
 
-import patterns.creation.factory.nvwa.*;
+import patterns.creation.factory.simple_factory.nvwa.*;
 
-public class NvWa {
+public class NvWaTest {
+    /**
+     * 工厂方法模式：定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类
+     * @param args
+     */
     public static void main(String[] args) {
         AbstractHumanFactory YinYangLu = new HumanFactory();
         System.out.println("--造出的第一批白色人种--");

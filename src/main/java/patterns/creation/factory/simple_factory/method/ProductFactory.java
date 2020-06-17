@@ -1,4 +1,4 @@
-package patterns.creation.factory.method;
+package patterns.creation.factory.simple_factory.method;
 
 import java.util.HashMap;
 import java.util.Map;
