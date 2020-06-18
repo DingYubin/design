@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ToolApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/PPTFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/PdfFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/ResourceFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/ToolApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/WordFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/Extractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/PPTFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/PdfFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/ResourceFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/ToolApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_2/WordFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Extractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/PPTFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/PdfFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/ResourceFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/WordFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/CommonEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,85 +23,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/ResourceFile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="115">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Visitor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Extractor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Compressor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="423">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ToolApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/PdfFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/PPTFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/WordFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="377">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -122,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,16 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain/ConcreteHandler1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain/ConcreteHandler2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain/ConcreteHandler3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/HandlerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/HandlerB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/HandlerC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain1/HandlerChain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/chain1/HandlerChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerA.java" />
@@ -184,10 +122,20 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/WordFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/ToolApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ToolApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1/CommonEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/visitor_demo1_1/CommonEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="913" />
     <option name="y" value="78" />
     <option name="width" value="974" />
@@ -203,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,17 +203,29 @@
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
               <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor_demo1_2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592482214663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592491810888" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -276,18 +235,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.behavioral.visitor.visitor_demo1" />
       <recent name="patterns.behavioral.visitor.visitor1_3" />
       <recent name="patterns.behavioral.visitor.visitor1_1" />
       <recent name="patterns.behavioral.responsibility.im_chain" />
       <recent name="patterns.behavioral.responsibility.chain1" />
-      <recent name="patterns.behavioral.responsibility.chain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor_demo1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor1_3" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\responsibility\ab_chain1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\responsibility\ab_chain3" />
-      <recent name="D:\resp\design\src\main\java\patterns\behavioral\responsibility\im_chain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,26 +261,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToolApplication (2)">
+  <component name="RunManager" selected="Application.ClientDemo1">
     <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.ab_chain1_2.Application" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.behavioral.responsibility.ab_chain1_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.ab_chain2.Application" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.behavioral.responsibility.ab_chain2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +288,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.Client2" />
+    <configuration name="ClientDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.visitor.ClientDemo1" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.behavioral.responsibility.*" />
+          <option name="PATTERN" value="patterns.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.visitor.ClientDemo2" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.behavioral.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,10 +355,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ToolApplication (2)" />
+        <item itemvalue="Application.ClientDemo1" />
+        <item itemvalue="Application.ClientDemo2" />
         <item itemvalue="Application.ToolApplication (1)" />
         <item itemvalue="Application.ToolApplication" />
-        <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
@@ -418,18 +377,19 @@
       <workItem from="1592202473524" duration="13149000" />
       <workItem from="1592291543079" duration="21692000" />
       <workItem from="1592445589610" duration="15699000" />
-      <workItem from="1592475120752" duration="5665000" />
+      <workItem from="1592475120752" duration="7056000" />
+      <workItem from="1592488753735" duration="2856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56802000" />
+    <option name="totallyTimeSpent" value="61049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,69 +476,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain/ConcreteHandler1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/HandlerChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/HandlerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/HandlerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/IHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -845,10 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Compressor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/ResourceFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="184">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -859,10 +756,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/ResourceFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Compressor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -872,7 +776,7 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,10 +784,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/PPTFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -894,22 +798,116 @@
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_3/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ToolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/CommonEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ToolApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
         </state>
       </provider>
     </entry>
