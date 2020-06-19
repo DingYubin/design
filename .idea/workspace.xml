@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/CommonEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/SingletonPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Emperor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,43 +21,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="138">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="69">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,13 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerChain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/chain2/HandlerC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/IHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerA.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerC.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerChain.java" />
@@ -126,12 +128,19 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1/CommonEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_1/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/visitor_demo1_1/CommonEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/SingletonPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java" />
       </list>
     </option>
   </component>
@@ -191,7 +200,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -200,8 +209,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -210,9 +219,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor" type="462c0819:PsiDirectoryNode" />
-              <item name="visitor_demo1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592491810888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592535354855" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -235,11 +244,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.creation.singleton.demo" />
+      <recent name="patterns.behavioral.visitor" />
       <recent name="patterns.behavioral.visitor.visitor_demo1" />
       <recent name="patterns.behavioral.visitor.visitor1_3" />
       <recent name="patterns.behavioral.visitor.visitor1_1" />
-      <recent name="patterns.behavioral.responsibility.im_chain" />
-      <recent name="patterns.behavioral.responsibility.chain1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor_demo1_2" />
@@ -261,20 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo1">
-    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.ab_chain1_2.Application" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.behavioral.responsibility.ab_chain1_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingletonPatternTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.ab_chain2_2.Application" />
       <module name="design" />
@@ -307,6 +303,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.creation.singleton.SingletonPatternTest" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.creation.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPatternTest" />
         <item itemvalue="Application.ClientDemo1" />
         <item itemvalue="Application.ClientDemo2" />
         <item itemvalue="Application.ToolApplication (1)" />
         <item itemvalue="Application.ToolApplication" />
-        <item itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -378,12 +387,12 @@
       <workItem from="1592291543079" duration="21692000" />
       <workItem from="1592445589610" duration="15699000" />
       <workItem from="1592475120752" duration="7056000" />
-      <workItem from="1592488753735" duration="2856000" />
+      <workItem from="1592488753735" duration="5203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61049000" />
+    <option name="totallyTimeSpent" value="63396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -406,7 +415,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2491839" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43634385" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -476,68 +485,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/HandlerC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#273#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/HandlerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/HandlerB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -859,31 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/IVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -891,10 +813,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/CommonEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#163#164#0" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
@@ -904,10 +855,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor_demo1_2/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state relative-caret-position="207">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/ClientDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/SingletonPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>

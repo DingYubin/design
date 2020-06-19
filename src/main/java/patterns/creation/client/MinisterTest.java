@@ -1,6 +1,6 @@
 package patterns.creation.client;
 
-import patterns.creation.singleton.Emperor;
+import patterns.creation.singleton.demo.Emperor;
 
 public class MinisterTest {
     /**

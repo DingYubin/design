@@ -1,4 +1,4 @@
-package patterns.creation.singleton;
+package patterns.creation.singleton.demo;
 
 /**
  * 懒汉式
