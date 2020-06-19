@@ -1,6 +1,5 @@
-package patterns.creation.client;
+package patterns.creation.builder;
 
-import patterns.creation.builder.Director;
 import patterns.creation.builder.constructor.ConstructorArg;
 
 public class BuilderTest {

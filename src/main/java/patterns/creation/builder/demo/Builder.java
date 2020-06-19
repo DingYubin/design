@@ -1,4 +1,4 @@
-package patterns.creation.builder;
+package patterns.creation.builder.demo;
 
 public abstract class Builder {
     //设置产品的不同部分，以获得不同的产品

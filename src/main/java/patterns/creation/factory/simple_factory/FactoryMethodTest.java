@@ -1,4 +1,4 @@
-package patterns.creation.client;
+package patterns.creation.factory.simple_factory;
 
 import patterns.creation.factory.simple_factory.method.ConcreteCreate;
 import patterns.creation.factory.simple_factory.method.ConcreteProduct1;

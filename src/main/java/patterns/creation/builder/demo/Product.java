@@ -1,4 +1,4 @@
-package patterns.creation.builder;
+package patterns.creation.builder.demo;
 
 /**
  * 产品类，通常实现了模板方法模式

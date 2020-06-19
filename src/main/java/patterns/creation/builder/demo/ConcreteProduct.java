@@ -1,4 +1,4 @@
-package patterns.creation.builder;
+package patterns.creation.builder.demo;
 
 /**
  * 具体创建者

@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/SingletonPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/AdvTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/AdvTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Emperor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/ConcreteProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/MinisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWaAbsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/abstract_factory/NvWaAbsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/NvWaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,54 +29,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="230">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="39" />
               <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,13 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerChain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/im_chain/HandlerB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/HandlerA.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/HandlerB.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/HandlerC.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerB.java" />
@@ -141,10 +110,17 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/SingletonPatternTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Singleton4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/AdvTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/Mail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/client/BuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/MinisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="913" />
     <option name="y" value="78" />
     <option name="width" value="974" />
@@ -210,7 +186,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -220,8 +196,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="creation" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592535354855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592550343396" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -244,18 +231,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.creation.prototype" />
       <recent name="patterns.creation.singleton.demo" />
       <recent name="patterns.behavioral.visitor" />
       <recent name="patterns.behavioral.visitor.visitor_demo1" />
       <recent name="patterns.behavioral.visitor.visitor1_3" />
-      <recent name="patterns.behavioral.visitor.visitor1_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\resp\design\src\main\java\patterns\creation\prototype\demo1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor_demo1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor1_3" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\visitor\visitor1_2" />
       <recent name="D:\resp\design\src\main\java\patterns\behavioral\responsibility\ab_chain1_2" />
-      <recent name="D:\resp\design\src\main\java\patterns\behavioral\responsibility\ab_chain3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonPatternTest">
+  <component name="RunManager" selected="Application.Clientdemo2">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.behavioral.responsibility.ab_chain2_2.Application" />
       <module name="design" />
@@ -310,38 +297,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Clientdemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.creation.prototype.Clientdemo1" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.creation.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clientdemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.creation.prototype.Clientdemo2" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.creation.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.creation.singleton.SingletonPatternTest" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.creation.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.visitor.visitor1_2.ToolApplication" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.behavioral.visitor.visitor1_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.visitor.visitor1_1.ToolApplication" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.behavioral.visitor.visitor1_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clientdemo2" />
+        <item itemvalue="Application.Clientdemo1" />
         <item itemvalue="Application.SingletonPatternTest" />
         <item itemvalue="Application.ClientDemo1" />
         <item itemvalue="Application.ClientDemo2" />
-        <item itemvalue="Application.ToolApplication (1)" />
-        <item itemvalue="Application.ToolApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -387,18 +374,18 @@
       <workItem from="1592291543079" duration="21692000" />
       <workItem from="1592445589610" duration="15699000" />
       <workItem from="1592475120752" duration="7056000" />
-      <workItem from="1592488753735" duration="5203000" />
+      <workItem from="1592488753735" duration="9200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63396000" />
+    <option name="totallyTimeSpent" value="67393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +394,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3547334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3547334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,125 +472,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/HandlerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/HandlerC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/HandlerChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_1/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain2_2/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/HandlerChain.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/HandlerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/HandlerB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/HandlerC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/PPTFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/PdfFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/ResourceFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -929,6 +797,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/AdvTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/abstract_factory/NvWaAbsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/NvWaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/constructor/ConstructorArg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/ConcreteProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/builder/BuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/MinisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/AdvTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package patterns.creation.client;
+package patterns.creation.factory.abstract_factory;
 
 import patterns.creation.factory.abstract_factory.nvwa.Human;
 import patterns.creation.factory.abstract_factory.nvwa.HumanFactory;

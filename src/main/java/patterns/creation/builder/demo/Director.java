@@ -1,4 +1,4 @@
-package patterns.creation.builder;
+package patterns.creation.builder.demo;
 
 public class Director {
     private Builder builder = new ConcreteProduct();

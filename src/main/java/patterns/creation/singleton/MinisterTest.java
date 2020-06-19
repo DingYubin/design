@@ -1,4 +1,4 @@
-package patterns.creation.client;
+package patterns.creation.singleton;
 
 import patterns.creation.singleton.demo.Emperor;
 
