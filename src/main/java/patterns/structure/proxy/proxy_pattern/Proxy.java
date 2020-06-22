@@ -1,5 +1,8 @@
 package patterns.structure.proxy.proxy_pattern;
 
+/**
+ * 为其他对象提供一种代理以控制对这个对象的访问
+ */
 public class Proxy implements Subject{
     //要代理哪个实现类
     private Subject subject = null;
