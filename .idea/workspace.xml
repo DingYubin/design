@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/AdvTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_1/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/AdvTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/PrototypeClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/ConcreteProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/ConcreteProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/demo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/builder/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/FactoryMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/MinisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/singleton/MinisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWaAbsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/abstract_factory/NvWaAbsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/creation/client/NvWaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/creation/factory/simple_factory/NvWaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/PrototypeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="69">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -66,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/HandlerB.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain3/HandlerC.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_1/HandlerB.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/behavioral/responsibility/ab_chain1_2/HandlerA.java" />
@@ -117,10 +90,11 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/creation/prototype/PrototypeClass.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="913" />
     <option name="y" value="78" />
     <option name="width" value="974" />
@@ -136,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,40 +163,17 @@
               <item name="creation" type="462c0819:PsiDirectoryNode" />
               <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creation" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592550343396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592791972041" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -374,18 +326,19 @@
       <workItem from="1592291543079" duration="21692000" />
       <workItem from="1592445589610" duration="15699000" />
       <workItem from="1592475120752" duration="7056000" />
-      <workItem from="1592488753735" duration="9200000" />
+      <workItem from="1592488753735" duration="9889000" />
+      <workItem from="1592791619320" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67393000" />
+    <option name="totallyTimeSpent" value="68540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3547334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3547334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +355,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43634385" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4353963" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -472,13 +425,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/ResourceFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/behavioral/visitor/visitor1_1/WordFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -743,13 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/singleton/demo/Emperor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -936,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/Clientdemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="368">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -946,8 +886,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/demo1_2/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="450">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/creation/prototype/PrototypeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
