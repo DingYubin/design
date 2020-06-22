@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/AlertHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/AlertRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/ApiStatInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/ErrorAlertHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/NotificationEmergencyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/EmailMsgSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/MsgSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/NormalNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/SevereNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/TelephoneMsgSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/TrivialNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/UrgencyNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/WechatMsgSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/ABCBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/DepositAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/IBCBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/SavingAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,13 +20,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/EmailMsgSender.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/DepositAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/SavingAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/IBCBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/ABCBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,13 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_1/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_2/IGamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_2/GamePlayerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_2/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/IGamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/proxy_pattern/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/proxy_pattern/RealSubject.java" />
@@ -108,13 +164,20 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/UrgencyNotification.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/NormalNotification.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_2/TrivialNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/DepositAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/SavingAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/IBCBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/ABCBack.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="235" />
-    <option name="y" value="80" />
-    <option name="width" value="1331" />
+    <option name="x" value="913" />
+    <option name="y" value="78" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -170,38 +233,6 @@
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592826923363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592830889524" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -222,11 +253,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.structure.bridge.demo2_1" />
       <recent name="patterns.structure.bridge.demo1_2" />
       <recent name="patterns.structure.proxy.demo1_5" />
       <recent name="patterns.structure.proxy.dynamic_proxy" />
       <recent name="patterns.structure.proxy.demo1_3" />
-      <recent name="patterns.structure.proxy.demo1_2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\resp\design\src\main\java\patterns\structure\proxy\demo1_5" />
@@ -248,13 +279,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.structure.proxy.dynamic_proxy.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structure.bridge.demo2_1.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.structure.proxy.dynamic_proxy.*" />
+          <option name="PATTERN" value="patterns.structure.bridge.demo2_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.clientDemo" />
         <item itemvalue="Application.RpcServerApplication" />
         <item itemvalue="Application.Client1" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -340,18 +371,50 @@
       <workItem from="1592445589610" duration="15699000" />
       <workItem from="1592475120752" duration="7056000" />
       <workItem from="1592488753735" duration="9889000" />
-      <workItem from="1592791619320" duration="17547000" />
+      <workItem from="1592791619320" duration="20232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85629000" />
+    <option name="totallyTimeSpent" value="88314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.23802084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.23773988" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Structure" order="6" sideWeight="0.50143677" side_tool="true" weight="0.23802084" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41022852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22741765" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.23802084" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -368,7 +431,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2603613" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22741765" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -381,7 +444,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -406,80 +469,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/IGamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/proxy_pattern/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/proxy_pattern/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_2/GamePlayerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_4/GamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_4/GamePlayIH.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -860,6 +849,82 @@
           <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/IBCBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/SavingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/DepositAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo2_1/ABCBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
