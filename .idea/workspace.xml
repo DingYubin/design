@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7450287-2eae-4604-b7d2-e6a727d6f484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo1/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo1/Adaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo1/ITarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo1/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo1/Adaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo1/ITarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo2/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo2/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo2/ConcreteTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/inherit/demo2/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/structure/facade/Facade.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +31,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/Facade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,10 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/proxy_pattern/Proxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_5/IGamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_5/GamePlayerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_5/GamePlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_5/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/NotificationEmergencyLevel.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/bridge/demo1_1/Notification.java" />
@@ -129,6 +161,10 @@
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Adapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/patterns/structure/adapter/combination/demo2/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/facade/Facade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassC.java" />
       </list>
     </option>
   </component>
@@ -199,65 +235,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="combination" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="combination" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="combination" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="inherit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="inherit" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593596105992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593596825580" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -279,11 +257,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns.structure.facade" />
       <recent name="patterns.structure.decoration" />
       <recent name="patterns.structure.bridge.demo2_1" />
       <recent name="patterns.structure.bridge.demo1_2" />
       <recent name="patterns.structure.proxy.demo1_5" />
-      <recent name="patterns.structure.proxy.dynamic_proxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\resp\design\src\main\java\patterns\structure\adapter\combination" />
@@ -305,13 +283,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.structure.bridge.demo2_1.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="patterns.structure.bridge.demo2_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.structure.facade.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.structure.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,26 +349,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.structure.proxy.dynamic_proxy.Client1" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.structure.proxy.dynamic_proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client1" />
       </list>
     </recent_temporary>
   </component>
@@ -402,18 +380,18 @@
       <workItem from="1593395768786" duration="6000" />
       <workItem from="1593395795545" duration="1875000" />
       <workItem from="1593425657533" duration="10000" />
-      <workItem from="1593584221877" duration="7241000" />
+      <workItem from="1593584221877" duration="7962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99213000" />
+    <option name="totallyTimeSpent" value="99934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.22867803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.22867803" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -422,7 +400,7 @@
       <window_info id="Structure" order="6" sideWeight="0.50143677" side_tool="true" weight="0.23802084" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41022852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41022852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,7 +408,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2241567" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2241567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32861805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -500,34 +478,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_3/GamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_4/GamePlayIH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_4/IGamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/proxy/demo1_4/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -908,6 +858,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/patterns/structure/facade/ClassC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
