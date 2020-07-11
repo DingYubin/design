@@ -1,6 +1,6 @@
-package patterns.hybrid.strategy_factory;
+package hybrid.strategy_factory;
 
-import patterns.hybrid.strategy_factory.strategy.*;
+import hybrid.strategy_factory.strategy.*;
 
 public enum StrategyExchange {
     BACK("BACK", BackStrategy.class),

@@ -1,7 +1,7 @@
-package hybrid.dto.output;
+package hybrid.asset_demo.dto.output;
 
 import com.alibaba.fastjson.JSONObject;
-import hybrid.dto.input.CommonInput;
+import hybrid.asset_demo.dto.input.CommonInput;
 
 /**
  * 回调资金方数据

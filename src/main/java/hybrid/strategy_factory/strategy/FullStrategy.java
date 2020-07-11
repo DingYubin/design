@@ -1,4 +1,4 @@
-package patterns.hybrid.strategy_factory.strategy;
+package hybrid.strategy_factory.strategy;
 
 public class FullStrategy implements Strategy{
 

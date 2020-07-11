@@ -1,4 +1,4 @@
-package hybrid.dto.input;
+package hybrid.asset_demo.dto.input;
 
 import com.alibaba.fastjson.JSONObject;
 import com.sun.istack.internal.NotNull;

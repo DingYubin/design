@@ -1,9 +1,6 @@
-package patterns.hybrid.strategy_factory.factory;
+package hybrid.strategy_factory.factory;
 
-import patterns.creation.factory.simple_factory.method.ConcreteProduct1;
-import patterns.creation.factory.simple_factory.method.ConcreteProduct2;
-import patterns.creation.factory.simple_factory.method.Product;
-import patterns.hybrid.strategy_factory.strategy.*;
+import hybrid.strategy_factory.strategy.*;
 
 import java.util.HashMap;
 import java.util.Map;

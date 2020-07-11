@@ -1,6 +1,6 @@
-package patterns.hybrid.strategy_factory;
+package hybrid.strategy_factory;
 
-import patterns.hybrid.strategy_factory.strategy.Strategy;
+import hybrid.strategy_factory.strategy.Strategy;
 
 public class Context {
     //抽象策略

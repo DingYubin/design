@@ -1,4 +1,4 @@
-package hybrid.dto.output;
+package hybrid.asset_demo.dto.output;
 
 /**
  * 回调资金方通用业务数据

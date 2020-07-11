@@ -1,7 +1,7 @@
-package hybrid.controller;
+package hybrid.asset_demo.controller;
 
-import hybrid.dto.input.CommonInput;
-import hybrid.dto.output.AssetNoticeOutput;
+import hybrid.asset_demo.dto.input.CommonInput;
+import hybrid.asset_demo.dto.output.AssetNoticeOutput;
 
 public class AssetController {
 

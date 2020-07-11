@@ -1,8 +1,6 @@
-package patterns.hybrid.strategy_factory;
+package hybrid.strategy_factory;
 
-import patterns.hybrid.strategy_factory.factory.StrategyFactory4;
-import patterns.hybrid.strategy_factory.factory.StrategyFactory5;
-import patterns.hybrid.strategy_factory.strategy.CutStrategy;
+import hybrid.strategy_factory.factory.StrategyFactory5;
 
 public class Client {
     public static void main(String[] args) {

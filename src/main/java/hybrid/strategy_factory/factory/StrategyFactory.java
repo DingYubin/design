@@ -1,6 +1,6 @@
-package patterns.hybrid.strategy_factory.factory;
+package hybrid.strategy_factory.factory;
 
-import patterns.hybrid.strategy_factory.strategy.*;
+import hybrid.strategy_factory.strategy.*;
 
 import java.util.HashMap;
 import java.util.Map;
