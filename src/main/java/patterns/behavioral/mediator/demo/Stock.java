@@ -23,6 +23,6 @@ public class Stock extends AbstractCollleague{
     //存货压力太大了，就要通知采购人员不要采购，销售人员要尽快销售
     public void clearStock(){
         System.out.println("清理存货数量为："+COMPTER_NUMBER);
-        super.mediaator.execute("stock.clear");
+        super.mediator.execute("stock.clear");
     }
 }

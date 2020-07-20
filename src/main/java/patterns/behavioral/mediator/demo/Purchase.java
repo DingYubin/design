@@ -7,7 +7,7 @@ public class Purchase extends AbstractCollleague{
     }
     //采购IBM电脑
     public void buyIBMcomputer(int number){
-        super.mediaator.execute("purchase.buy",number);
+        super.mediator.execute("purchase.buy",number);
     }
     //不再采购IBM电脑
     public void refuseBuyIBM(){
