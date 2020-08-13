@@ -8,8 +8,9 @@ import hybrid.strategy_factory.strategy.*;
 public class StrategyFactory2 {
 
     public static Strategy getStrategy(String key){
-        if (key == null)
+        if (key == null) {
             return new EmptyStrategy();
+        }
 
         if (key.equals(Key.CUT)){
             return new CutStrategy();

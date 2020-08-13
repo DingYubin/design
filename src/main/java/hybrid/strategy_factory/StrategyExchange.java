@@ -3,6 +3,9 @@ package hybrid.strategy_factory;
 import hybrid.strategy_factory.strategy.*;
 
 public enum StrategyExchange {
+    /**
+     * 枚举策略类
+     */
     BACK("BACK", BackStrategy.class),
     CUT("CUT", CutStrategy.class),
     FULL("FULL",FullStrategy.class),
