@@ -13,7 +13,7 @@ public class ConcreteDecorator1 extends Decorator{
 
     @Override
     public void operate() {
-        this.method1();
         super.operate();
+        this.method1();
     }
 }
