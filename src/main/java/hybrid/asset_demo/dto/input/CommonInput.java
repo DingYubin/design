@@ -1,7 +1,7 @@
 package hybrid.asset_demo.dto.input;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 
 import java.io.Serializable;
 
