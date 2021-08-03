@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(VinUtil.isValidVin("LBVFR790XBSD26553"));
+        System.out.println(VinUtil.isValidVin("LBVFR790 X BSD26553"));
 
 //        Solution solution = new Solution();
 //        int[][] operators = {{1,1,1},{1,2,2},{1,3,2},{2,1},{1,4,4},{2,2}};
