@@ -11,6 +11,7 @@
     <modules>
         <module>abstract-factory</module>
         <module>design-patterns</module>
+        <module>callback</module>
     </modules>
 
     <properties>
