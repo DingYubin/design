@@ -12,6 +12,7 @@
         <module>abstract-factory</module>
         <module>design-patterns</module>
         <module>callback</module>
+        <module>state</module>
     </modules>
 
     <properties>
